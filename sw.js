@@ -1,6 +1,6 @@
 // Gerado no build. Guarda o app inteiro para funcionar sem internet.
-const CACHE = 'cobertura-2s9fil';
-const FILES = ["./","./apple-touch-icon.png","./assets/index-BCMYfxLy.css","./assets/index-Cn2xyzwp.js","./assets/worker-DAxSA4Rt.js","./icon-192.png","./icon-512.png","./index.html","./manifest.webmanifest"];
+const CACHE = 'cobertura-mezskw';
+const FILES = ["./","./apple-touch-icon.png","./assets/index-BYGMJjXE.js","./assets/index-CUXlCv6s.css","./assets/worker-D6pQzWRO.js","./icon-192.png","./icon-512.png","./index.html","./manifest.webmanifest"];
 
 self.addEventListener('install', (event) => {
   event.waitUntil(caches.open(CACHE).then((cache) => cache.addAll(FILES)).then(() => self.skipWaiting()));
